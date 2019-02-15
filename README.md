@@ -1,2 +1,27 @@
-# GA_capstone_02-2019
-Term Deposit Subscription Predictions and Customer Analysis for a Portuguese Bank
+# Our Goal
+Build a binary classification model to predict if a customer will make a term deposit.
+
+# The Data
+The data comes from telemarketing campaigns of a Portuguese bank. Often, more than one contact to the same customer was required, in order to know if a sign up for the product (term deposit) would be (yes) or (no).
+
+Term deposits, also known as, a certificate of deposit, (CD), is a type of savings account that has a fixed interest rate and fixed date of withdrawal, known as the maturity date. Typically there are no risks associated with these and the longer the term length, the more you will earn.
+
+### Data Dictionary
+
+![](images/data_dict.png?raw=true)
+
+## Key Takeaways
+### Insights
+- As successful outcomes of previous marketing campaigns increase by one unit, a customer is 1.9x as likely to sign up for a term deposit
+- As marketing activity increases in the months of March, October, December, and September by one unit respectively a customer is 1.3x, 1.17x, 1.15x, and 1.12x as likely to sign up for a term deposit
+
+### Recommendations
+
+- Increase marketing activity in months with higher conversion rates
+   - Are there opportunities to run campaigns centered around tentpole holidays in these months?
+
+- Target customers who converted on past campaigns
+   - This was the strongest predictor in our Logistic Regression model
+
+
+##### Take a look at my <b>[presentation](https://docs.google.com/presentation/d/19nOb9sbrnAcBxqYM0iHARhWqCdveEEp25AC6YmvHj9k/edit#slide=id.g35ed75ccf_015)</b> for all insights and recommendations.
